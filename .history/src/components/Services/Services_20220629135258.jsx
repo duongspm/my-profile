@@ -22,7 +22,7 @@ const Services = () => {
   };
   
   const thongbaodownload = ()=>{
-    toast.success("Download Success 🤑💵🤑, Helo");
+    toast.success("Download Success 🤑💵🤑, S");
   }
 
   return (
@@ -38,7 +38,7 @@ const Services = () => {
           ispum is simpley dummy text of printing
         </spane>
         <a href={Resume} download>
-          <button className="button s-button" onClick={()=>thongbaodownload()} >Download CV</button>
+          <button className="button s-button" >Download CV</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
@@ -88,17 +88,6 @@ const Services = () => {
           style={{ background: "var(--purple)" }}
         ></div>
       </div>
-      <ToastContainer
-                position="top-center"
-                autoClose={5000}
-                hideProgressBar={false}
-                newestOnTop={false}
-                closeOnClick
-                rtl={false}
-                pauseOnFocusLoss
-                draggable
-                pauseOnHover
-                />
     </div>
   );
 };
