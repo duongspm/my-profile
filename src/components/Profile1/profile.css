@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
+    gap: 2rem;
 }
 .profile{
     font-family: 'Poppins', sans-serif;
@@ -84,4 +84,5 @@
     height: 100%;
     border: unset;
     border-radius: unset;
+    transform: unset;
 }

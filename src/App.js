@@ -11,7 +11,7 @@ import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context";
 import Product from "./components/Product/Product";
-import Profile from "./components/Profile/Profile";
+ import Profile from "./components/Profile1/Profile";
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
